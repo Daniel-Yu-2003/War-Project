@@ -68,6 +68,3 @@ addToBottomMain(pile, []) =  pile -- empty warchest return pile
 addToBottomMain(pile, temp) = do -- add warchest to pile 1 by 1
     let new = pile ++ [head temp]
     addToBottomMain(new, tail temp)
-
-               
-    
